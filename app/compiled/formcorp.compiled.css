@@ -1,0 +1,1104 @@
+/* Features */
+/* Colors */
+/* Sections */
+/* Fields */
+/* Field radio buttons */
+/* Field text inputs */
+/* Select */
+/* Success/error */
+/* Buttons */
+/* Repeatable fields */
+/* Pagination */
+/* Auto suggest */
+/* Tables */
+/* Content radio list */
+#nav .powered-by {
+  position: absolute;
+  right: 50px;
+  left: auto;
+  top: 50%;
+}
+#loading-bar-top .bar {
+  background: #48ab6c;
+}
+#formcorp-form {
+  /* change colours to suit your needs */
+  /* change colours to suit your needs */
+  /* change border colour to suit your needs */
+  display: none;
+  font-family: 'Open Sans', sans-serif;
+  /* Page stylings */
+  /* Auto suggest widget */
+  /* Tables */
+  /* Credit card field */
+}
+#formcorp-form html,
+#formcorp-form body,
+#formcorp-form div,
+#formcorp-form span,
+#formcorp-form object,
+#formcorp-form iframe,
+#formcorp-form h1,
+#formcorp-form h2,
+#formcorp-form h3,
+#formcorp-form h4,
+#formcorp-form h5,
+#formcorp-form h6,
+#formcorp-form p,
+#formcorp-form blockquote,
+#formcorp-form pre,
+#formcorp-form abbr,
+#formcorp-form address,
+#formcorp-form cite,
+#formcorp-form code,
+#formcorp-form del,
+#formcorp-form dfn,
+#formcorp-form em,
+#formcorp-form img,
+#formcorp-form ins,
+#formcorp-form kbd,
+#formcorp-form q,
+#formcorp-form samp,
+#formcorp-form small,
+#formcorp-form strong,
+#formcorp-form sub,
+#formcorp-form sup,
+#formcorp-form var,
+#formcorp-form b,
+#formcorp-form i,
+#formcorp-form dl,
+#formcorp-form dt,
+#formcorp-form dd,
+#formcorp-form ol,
+#formcorp-form ul,
+#formcorp-form li,
+#formcorp-form fieldset,
+#formcorp-form form,
+#formcorp-form label,
+#formcorp-form legend,
+#formcorp-form table,
+#formcorp-form caption,
+#formcorp-form tbody,
+#formcorp-form tfoot,
+#formcorp-form thead,
+#formcorp-form tr,
+#formcorp-form th,
+#formcorp-form td,
+#formcorp-form article,
+#formcorp-form aside,
+#formcorp-form canvas,
+#formcorp-form details,
+#formcorp-form figcaption,
+#formcorp-form figure,
+#formcorp-form footer,
+#formcorp-form header,
+#formcorp-form hgroup,
+#formcorp-form menu,
+#formcorp-form nav,
+#formcorp-form section,
+#formcorp-form summary,
+#formcorp-form time,
+#formcorp-form mark,
+#formcorp-form audio,
+#formcorp-form video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+#formcorp-form body {
+  line-height: 1;
+}
+#formcorp-form article,
+#formcorp-form aside,
+#formcorp-form details,
+#formcorp-form figcaption,
+#formcorp-form figure,
+#formcorp-form footer,
+#formcorp-form header,
+#formcorp-form hgroup,
+#formcorp-form menu,
+#formcorp-form nav,
+#formcorp-form section {
+  display: block;
+}
+#formcorp-form nav ul {
+  list-style: none;
+}
+#formcorp-form blockquote,
+#formcorp-form q {
+  quotes: none;
+}
+#formcorp-form blockquote:before,
+#formcorp-form blockquote:after,
+#formcorp-form q:before,
+#formcorp-form q:after {
+  content: '';
+  content: none;
+}
+#formcorp-form a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+#formcorp-form ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+#formcorp-form mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+#formcorp-form del {
+  text-decoration: line-through;
+}
+#formcorp-form abbr[title],
+#formcorp-form dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+#formcorp-form table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#formcorp-form hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+#formcorp-form input,
+#formcorp-form select {
+  vertical-align: middle;
+}
+#formcorp-form h1,
+#formcorp-form h2,
+#formcorp-form h3,
+#formcorp-form h4,
+#formcorp-form h5,
+#formcorp-form h6 {
+  text-transform: none;
+}
+#formcorp-form .fc-modal {
+  display: none;
+}
+#formcorp-form.fc-form-loaded {
+  display: block;
+}
+#formcorp-form.fc-form-loaded .fc-modal::before,
+#formcorp-form.fc-form-loaded .fc-modal.fc-show {
+  display: block;
+}
+#formcorp-form p,
+#formcorp-form h1,
+#formcorp-form h2,
+#formcorp-form h3,
+#formcorp-form h4,
+#formcorp-form div.alert {
+  margin-bottom: 20px;
+}
+#formcorp-form p,
+#formcorp-form input[type="checkbox"] + label em,
+#formcorp-form input[type="radio"] + label em {
+  line-height: 1.72857143 !important;
+}
+#formcorp-form .fc-page {
+  /* Pagination */
+}
+#formcorp-form .fc-page > h1 {
+  display: none;
+}
+#formcorp-form .fc-page > h2 {
+  display: none;
+}
+#formcorp-form .fc-page .fc-section {
+  border: 1px solid #96989b;
+  padding: 0;
+}
+#formcorp-form .fc-page .fc-section {
+  margin: 50px 0;
+  /* Fields */
+}
+#formcorp-form .fc-page .fc-section .fc-section-end {
+  clear: both;
+}
+#formcorp-form .fc-page .fc-section > p {
+  font-weight: bold;
+  margin: 15px 0 0 0;
+}
+#formcorp-form .fc-page .fc-section h4 {
+  font-size: 14pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid #c8cbd4;
+  font-weight: normal;
+}
+#formcorp-form .fc-page .fc-section .fc-field {
+  margin: 0 0 20px 0;
+  /* Rich text area styling */
+  /* Field label */
+  /* Field help text */
+  /* Content radio list styling */
+  /* Field input types */
+  /* Select boxes */
+  /* Fields that have been successfully validated */
+  /* Repeatable styles */
+}
+#formcorp-form .fc-page .fc-section .fc-field.two-col {
+  width: 48.75%;
+  float: left;
+}
+#formcorp-form .fc-page .fc-section .fc-field.two-col.first {
+  clear: both;
+  margin-right: 2.5%;
+}
+#formcorp-form .fc-page .fc-section .fc-field.two-col.last + .fc-field {
+  clear: both;
+}
+#formcorp-form .fc-page .fc-section .fc-field.bold .fc-fieldcontainer > label {
+  font-weight: bold;
+}
+#formcorp-form .fc-page .fc-section .fc-field.three-col {
+  width: 33.33333%;
+  float: left;
+}
+#formcorp-form .fc-page .fc-section .fc-field.three-col.first {
+  clear: both;
+}
+#formcorp-form .fc-page .fc-section .fc-field.three-col.last + .fc-field {
+  clear: both;
+}
+#formcorp-form .fc-page .fc-section .fc-field.three-col.two-thirds {
+  width: 66.66666667%;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-richTextArea {
+  margin: 0 0 -15px 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-richTextArea ol {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-richTextArea ol li {
+  list-style-type: decimal;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-optionTable .fc-field-element-container {
+  padding-right: 20px;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-optionTable .fc-table {
+  border-radius: 0;
+  width: 100%;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-optionTable .fc-table:before {
+  background: #48ab6c;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-optionTable .fc-table th {
+  font-weight: normal;
+  text-transform: none;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-optionTable .fc-table th:before {
+  background: rgba(72, 171, 108, 0.7);
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-optionTable .fc-table th,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-optionTable .fc-table td {
+  text-align: center;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-optionTable .fc-table .fc-option-buttons .fc-button {
+  width: 100%;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-fieldcontainer > label {
+  font-weight: normal;
+  margin: 0 0 15px 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-fieldcontainer > label > .fc-help-link {
+  background: #48ab6c;
+  color: #ffffff;
+  padding: 2px 6px 3px 6px;
+  font-size: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-fieldcontainer > label > .fc-help-link:hover,
+#formcorp-form .fc-page .fc-section .fc-field .fc-fieldcontainer > label > .fc-help-link :active {
+  text-decoration: none;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-fieldcontainer .fc-error-text {
+  position: absolute;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-help {
+  color: #ffffff;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-help a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-emailVerification .fc-verify-inline .fc-verify-email-input-code {
+  float: left;
+  width: 60%;
+  margin-right: 5px;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-emailVerification .fc-verify-inline .fc-btn {
+  background: #48ab6c;
+  color: #ffffff;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-emailVerification .fc-verify-inline .fc-verify-email-button,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-emailVerification .fc-verify-inline .fc-send-email {
+  float: left;
+  margin: 0 5px 0 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-emailVerification .fc-verify-inline .fc-loading {
+  display: none;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-emailVerification .fc-verify-inline.loading input[type="text"] {
+  background: url(images/ball-triangle.svg) no-repeat right 12px top 8px;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-emailVerification .fc-verify-inline.error input[type="text"] {
+  border: 1px solid #e0001b;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-btn {
+  border-radius: 0;
+  padding: 12px 35px;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification {
+  /* 3 column layout */
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-content-radio-item .fc-content-icon,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-content-radio-item .fc-content-icon {
+  margin: 14px 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-content-radio-item .fc-content-icon i.fa,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-content-radio-item .fc-content-icon i.fa {
+  font-size: 2.4em;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-content-radio-item .fc-button,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-content-radio-item .fc-button {
+  margin-right: 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-col-3 .fc-content-radio-item,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-col-3 .fc-content-radio-item {
+  margin-right: 2%;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-col-4 .fc-content-radio-item,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-col-4 .fc-content-radio-item {
+  margin-right: 2%;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-content-radio-item {
+  margin-bottom: 25px;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-content-radio-item .fc-content-title {
+  background: #48ab6c;
+  color: #ffffff;
+  border-radius: 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-successfully-verified,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-greenid-successfully-verified {
+  color: #48ab6c;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification.fc-is-verified .fc-greenid-options,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList.fc-is-verified .fc-greenid-options {
+  display: none;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-col,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-col {
+  min-height: 260px;
+  border-radius: 0;
+  border: 1px #c8cbd4 solid;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-col .fc-content-content,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-col .fc-content-content {
+  padding: 0 35px;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-content-desc,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-content-desc {
+  margin: 30px 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-content-title,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-content-title {
+  padding: 12px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  border-bottom: 1px solid #c8cbd4;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-option-buttons .fc-button,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-option-buttons .fc-button {
+  width: 100%;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-verification-packages,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-greenid-verification-packages {
+  margin-top: 30px;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-verification-packages .progress,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-greenid-verification-packages .progress {
+  margin: 20px 0 30px 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-verification-packages .progress .progress-bar-success,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-greenid-verification-packages .progress .progress-bar-success {
+  background: #48ab6c;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-verification-packages .fc-verified,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-greenid-verification-packages .fc-verified {
+  border: 1px #48ab6c solid;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-verification-packages .fc-verified .fc-successfully-verified,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-greenid-verification-packages .fc-verified .fc-successfully-verified {
+  color: #48ab6c;
+  padding: 7px 0 0 0;
+  display: block;
+  text-align: center;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-verification-packages .fc-verified .fc-content-title,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-greenid-verification-packages .fc-verified .fc-content-title {
+  color: #ffffff;
+  background: #48ab6c;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-green-id-header-summary,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-green-id-header-summary {
+  margin-bottom: 30px;
+  background: #f4f4f4;
+  border-radius: 9px;
+  padding: 16px;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-green-id-header-summary p,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-green-id-header-summary p {
+  margin-bottom: 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-options,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-greenid-options {
+  background: #fbfbfb;
+  padding: 10px 15px;
+  border-radius: 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-options .fc-header,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-greenid-options .fc-header {
+  margin-bottom: 5px;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-options > p,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-greenid-options > p {
+  margin-bottom: 15px;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-options .fc-green-field,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-greenid-options .fc-green-field {
+  width: 48.75%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-options .fc-green-field:nth-child(odd),
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-greenid-options .fc-green-field:nth-child(odd) {
+  margin-right: 2.5% !important;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-options .tos,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-greenid-options .tos {
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-options .tos > input[type="checkbox"],
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-greenid-options .tos > input[type="checkbox"] {
+  margin-top: 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-options .fc-passport .passport-number,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-contentRadioList .fc-greenid-options .fc-passport .passport-number {
+  width: 100%;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-block label {
+  min-width: 90%;
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput {
+  /* Styled radio buttons */
+  /* Checkbox specific styling */
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="text"] {
+  border: 1px solid #a9afb7;
+  border-radius: 0;
+  padding: 12px 20px;
+  height: auto;
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="text"]::-webkit-input-placeholder,
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="text"]:-moz-placeholder,
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="text"]::-moz-placeholder,
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="text"]:-ms-input-placeholder,
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="text"][placeholder] {
+  font-style: italic;
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="text"]:focus {
+  border-color: #777777;
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="radio"] {
+  display: none;
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="radio"] + label span,
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="radio"] + label em {
+  float: left;
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="radio"] + label span:first-child {
+  border-color: #fff;
+  padding: 3px;
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  background: #fff;
+  border-radius: 9px;
+  border: 1px solid #c8cbd4;
+  cursor: pointer;
+  transition: border-color ease-in-out 0.15s;
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="radio"] + label span:first-child i {
+  opacity: 0;
+  background-color: #48ab6c;
+  display: block;
+  width: 11px;
+  height: 11px;
+  border-radius: 6px;
+  transition: opacity ease-in-out 0.15s;
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="radio"] + label em {
+  font-style: normal;
+  line-height: 19px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="radio"]:checked + label span {
+  border-color: #48ab6c;
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="radio"]:checked + label span i {
+  opacity: 1;
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="checkbox"] {
+  display: none;
+  /* Checked checkboxes */
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="checkbox"] + label span:first-child,
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="checkbox"] + label em {
+  float: left;
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="checkbox"] + label span:first-child {
+  border-color: #fff;
+  padding: 3px;
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  background: #fff;
+  border-radius: 0;
+  border: 1px solid #c8cbd4;
+  cursor: pointer;
+  transition: border-color ease-in-out 0.15s;
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="checkbox"] + label span:first-child b {
+  opacity: 0;
+  transition: opacity ease-in-out 0.15s;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="checkbox"] + label span:first-child i {
+  display: block;
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="checkbox"] + label em {
+  font-style: normal;
+  line-height: 19px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="checkbox"]:checked + label span {
+  border-color: #48ab6c;
+  /* Success tick */
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="checkbox"]:checked + label span b {
+  opacity: 1;
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="checkbox"]:checked + label span i {
+  opacity: 1;
+  background-color: #48ab6c;
+  position: absolute;
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="checkbox"]:checked + label span i:first-child {
+  width: 3px;
+  height: 9px;
+  left: 3px;
+  top: 4px;
+}
+#formcorp-form .fc-page .fc-section .fc-field input.fc-fieldinput[type="checkbox"]:checked + label span i:last-child {
+  width: 3px;
+  height: 3px;
+  left: 0;
+  top: 10px;
+}
+#formcorp-form .fc-page .fc-section .fc-field select {
+  border: 1px solid #a9afb7;
+  border-radius: 0;
+  padding: 12px 20px 11px 20px;
+  height: auto;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-fieldgroup {
+  padding: 0 0 25px 0;
+  /* Success and error box */
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-fieldgroup .fc-success-box,
+#formcorp-form .fc-page .fc-section .fc-field .fc-fieldgroup .fc-error-box {
+  display: block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  transition: width ease-in-out 0.15s, height ease-in-out 0.15s, right ease-in-out 0.15s;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-success input.fc-fieldinput,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-success select {
+  border: 1px solid #48ab6c;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-success .fc-fieldgroup .fc-field-element-container {
+  position: relative;
+  /* Success tick */
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-success .fc-fieldgroup .fc-field-element-container .fc-success-box {
+  width: 30px;
+  height: 30px;
+  right: -15px;
+  border-radius: 15px;
+  background: #48ab6c url(images/success-tick.png) center center no-repeat;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-error input.fc-fieldinput,
+#formcorp-form .fc-page .fc-section .fc-field.fc-error select.fc-fieldinput {
+  border: 1px solid #e0001b;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-error .fc-fieldgroup .fc-field-element-container {
+  position: relative;
+  /* Error tick */
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-error .fc-fieldgroup .fc-field-element-container .fc-error-box {
+  background: #e0001b url(images/error-cross.png) center center no-repeat;
+  width: 30px;
+  height: 30px;
+  right: -15px;
+  border-radius: 15px;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-repeatable.fc-repeatable-in-dom .fc-repeatable-rows {
+  margin: 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-repeatable.fc-repeatable-in-dom .fc-link a {
+  border: 1px solid #96989b;
+  padding: 0;
+  border-radius: 0;
+  display: block;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: left;
+  margin: 10px 10px 15px 10px;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-repeatable.fc-repeatable-in-dom .fc-link a:hover {
+  background: #efefef;
+  border-color: #6a6b6d;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-repeatableIterator .fc-fieldgroup {
+  padding-bottom: 0;
+}
+#formcorp-form .fc-page .fc-pagination {
+  /* Submit application button */
+  /* Previous page button */
+}
+#formcorp-form .fc-page .fc-pagination .fc-submit input[type="submit"] {
+  background: #48ab6c;
+  color: #ffffff;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  border-radius: 0;
+  min-width: 350px;
+}
+#formcorp-form .fc-page .fc-pagination .fc-prev-page {
+  display: none;
+}
+#formcorp-form .fc-button,
+#formcorp-form a.fc-btn {
+  background: #eeeef2;
+  border: 1px solid #a9afb7;
+  border-radius: 0;
+  width: 45%;
+  margin: 0 25px 25px 0;
+}
+#formcorp-form .fc-button.checked,
+#formcorp-form a.fc-btn.checked {
+  background-color: #48ab6c;
+  text-shadow: none;
+  color: #ffffff;
+  border-color: #068032;
+}
+#formcorp-form a.fc-btn {
+  width: auto;
+  padding: 14px 50px;
+  color: #231f20;
+}
+#formcorp-form a.fc-btn:hover {
+  text-decoration: none;
+}
+#formcorp-form .fc-auto-suggest {
+  background: #ffffff;
+}
+#formcorp-form .fc-table th,
+#formcorp-form .fc-table td {
+  padding: 12px;
+}
+#formcorp-form .fc-table.fc-summary {
+  margin: 0 0 25px 0;
+}
+#formcorp-form .fc-payment > div {
+  margin-right: 1%;
+  margin-bottom: 15px;
+}
+#formcorp-form .fc-modal:before {
+  opacity: 0.1;
+}
+#formcorp-form .fc-modal .modal-dialog {
+  background: #ffffff;
+  border-radius: 0;
+  width: 600px;
+  margin-left: -300px;
+}
+#formcorp-form .fc-modal .modal-dialog .modal-header {
+  background: #48ab6c;
+  color: #ffffff;
+  padding: 6px 20px;
+}
+#formcorp-form .fc-modal .modal-dialog .modal-header h2 {
+  margin: 0;
+}
+#formcorp-form .fc-modal .modal-dialog .modal-body {
+  padding: 15px 25px;
+}
+#formcorp-form .fc-modal .modal-dialog .modal-footer {
+  padding: 15px 25px;
+}
+#formcorp-form .fc-modal .modal-dialog .modal-footer .btn {
+  display: inline-block;
+  padding: 6px 25px;
+  background: #48ab6c;
+  color: #ffffff;
+  border-radius: 0;
+  border: medium none;
+}
+#formcorp-form .fc-modal .modal-dialog .modal-footer .btn.btn-danger {
+  background: #e0001b;
+  color: #ffffff;
+}
+@media only screen and (max-width: 699px) {
+  #formcorp-form .fc-button,
+  #formcorp-form .fc-field,
+  #formcorp-form .fc-page .fc-pagination .fc-submit input[type="submit"],
+  #formcorp-form .fc-field-contentRadioList .fc-col,
+  #formcorp-form .fc-field-greenIdVerification .fc-col,
+  #formcorp-form .fc-green-field {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  #formcorp-form .fc-page .fc-pagination .fc-submit {
+    width: 100% !important;
+  }
+}
+#loading-bar-top {
+  height: 3px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 101;
+}
+#loading-bar-top .bar {
+  background: #33B1F1;
+  height: 100%;
+}
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    transform: rotate(0deg);
+    /* Firefox 16+, IE 10+, Opera */
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(360deg);
+    /* IE 9 */
+    transform: rotate(360deg);
+    /* Firefox 16+, IE 10+, Opera */
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    transform: rotate(0deg);
+    /* Firefox 16+, IE 10+, Opera */
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(360deg);
+    /* IE 9 */
+    transform: rotate(360deg);
+    /* Firefox 16+, IE 10+, Opera */
+  }
+}
+.loader-container {
+  opacity: 1;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.loader-container #loader-content {
+  padding-top: 100px;
+}
+.loader-container #loader-content #loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+.loader-container #loader-content #loader-wrapper #loader {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 45%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  z-index: 1001;
+}
+.loader-container #loader-content #loader-wrapper #loader:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #e74c3c;
+  -webkit-animation: spin 3s linear infinite;
+  animation: spin 3s linear infinite;
+}
+.loader-container #loader-content #loader-wrapper #loader:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #f9c922;
+  -webkit-animation: spin 1.5s linear infinite;
+  /* Chrome, Opera 15+, Safari 5+ */
+  animation: spin 1.5s linear infinite;
+  /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+.loader-container #loader-content #loader-wrapper .loader-section {
+  position: fixed;
+  top: 0;
+  width: 51%;
+  height: 100%;
+  z-index: 10;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+.loader-container #loader-content #loader-wrapper .loader-section.section-left {
+  left: 0;
+}
+.loader-container #loader-content #loader-wrapper .loader-section.section-right {
+  right: 0;
+}
+#formcorp-form .fc-page .fc-section .fc-section-header .fc-section-label {
+  padding: 15px 25px;
+  background: #48ab6c;
+  color: #ffffff;
+  border-bottom: medium none;
+  margin-bottom: 25px;
+}
+#formcorp-form .fc-page .fc-section .fc-section-header .fc-section-label h4 {
+  border-bottom: medium none;
+  text-transform: none;
+  margin-bottom: 0;
+}
+#formcorp-form .fc-page .fc-section .fc-section-desc {
+  padding: 0 25px;
+}
+#formcorp-form .fc-page .fc-section .fc-field {
+  padding: 0 25px;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-desc {
+  margin: -10px 0 10px 0;
+  padding: 0;
+  font-style: italic;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-desc p {
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-radioList input.fc-fieldinput[type="radio"] + label em,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-checkboxList input.fc-fieldinput[type="radio"] + label em,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-radioList input.fc-fieldinput[type="checkbox"] + label em,
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-checkboxList input.fc-fieldinput[type="checkbox"] + label em {
+  float: none;
+  overflow: hidden;
+  padding: 0 50px 0 13px;
+  display: block;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-token {
+  font-weight: bold;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-grouplet .fc-field {
+  padding: 0 25px 0 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.multi-line .fc-block {
+  display: inline-block;
+  width: 33%;
+}
+#formcorp-form .fc-page .fc-section .fc-field.bold .fc-fieldcontainer > label {
+  font-weight: bold;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-fieldgroup {
+  padding-top: 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-fieldcontainer > label {
+  padding: 0 0 25px 0;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-tag-richBox {
+  padding: 0 25px;
+  margin-bottom: 35px;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-tag-richBox > .fc-fieldcontainer {
+  background: #fafafa;
+  padding-bottom: 10px;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-tag-richBox > .fc-fieldcontainer > label {
+  background: #48ab6c;
+  padding: 6px 15px;
+  display: block;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-tag-richBox > .fc-fieldcontainer .fc-fieldgroup {
+  padding: 0 20px;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-tag-richBox .fc-richtext h5 {
+  margin: 16px 0 2px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-tag-richBox .fc-richtext h6 {
+  font-weight: bold;
+  margin: 10px 0 0 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-tag-richBox .fc-richtext ol {
+  margin-top: 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-tag-richBox .fc-richtext p {
+  margin-bottom: 8px;
+  padding-bottom: 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-tag-header .fc-fieldcontainer label {
+  background: #48ab6c;
+  color: #ffffff;
+  padding: 4px 8px;
+  display: block;
+}
+#formcorp-form .fc-page .fc-section .fc-field.two-col {
+  width: 50%;
+  float: left;
+}
+#formcorp-form .fc-page .fc-section .fc-field.two-col.first {
+  clear: both;
+}
+#formcorp-form .fc-page .fc-section .fc-field.two-col.last + .fc-field {
+  clear: both;
+}
+#formcorp-form .fc-page .fc-section .fc-field.three-col {
+  width: 33.33333%;
+  float: left;
+}
+#formcorp-form .fc-page .fc-section .fc-field.three-col.first {
+  clear: both;
+}
+#formcorp-form .fc-page .fc-section .fc-field.three-col.last + .fc-field {
+  clear: both;
+}
+#formcorp-form .fc-page .fc-section .fc-field.three-col.two-thirds {
+  width: 66.66666667%;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-repeatable .fc-end-repeatable-row {
+  clear: both;
+}
+#formcorp-form .fc-page .fc-section .fc-field .fc-repeatable .fc-link a {
+  padding-left: 15px !important;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-content-title {
+  background: #48ab6c;
+  color: #ffffff;
+  border-radius: 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-verification-packages .fc-col {
+  min-height: 300px;
+}
+#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-verification-packages .fc-col .fc-content-desc {
+  height: 110px;
+}
+#formcorp-form .fc-page .fc-section .fc-field.no-top-margin {
+  margin: -15px 0 5px 0;
+}
+#formcorp-form .fc-page .fc-section .fc-field.two-col.first {
+  margin-right: 0;
+}
+#formcorp-form .fc-page .fc-pagination .next-page {
+  float: left;
+  font-size: 16px;
+  padding-top: 8px;
+}
+#formcorp-form .fc-page .fc-pagination .next-page .fa-check-circle {
+  color: #48ab6c;
+  font-size: 22px;
+}
