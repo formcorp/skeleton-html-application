@@ -36,11 +36,11 @@
 <div id="nav">
     <div class="centre">
         <a href="index.html" class="logo">
-            <img alt="{{logo_alt}}" src="{{logo}}"/>
+            <img alt="{{logo-alt}}" src="{{logo}}"/>
         </a>
 
         <a href="https://www.formcorp.com.au/" target="_blank" class="powered-by logo">
-            <img src="/images/powered-by-formcorp.png" alt="Powered by FormCorp">
+            <img src="images/powered-by-formcorp.png" alt="Powered by FormCorp">
         </a>
 
         <div class="shadow"></div>
@@ -61,9 +61,9 @@
                     m = c[c.length - 1], m.parentNode.insertBefore(t, m)
                 };
 
-                fcLoader('//cdn.formcorp.com.au/0.1.7/formcorp.min.js', function () {
+                fcLoader('//cdn.formcorp.com.au/{{version}}/formcorp.min.js', function () {
                     fc.setConfig({{options}});
-                    fc.init('{{public_key}}', 'formcorp-form');
+                    fc.init('{{public-key}}', 'formcorp-form');
                 })
                 ;
             </script>
@@ -77,6 +77,7 @@
     <!-- Content | END -->
 </div>
 <script src="system/js/global.js"></script>
+<script src="js/formcorp.custom.js"></script>
 </body>
 <!-- <![endif]-->
 </html>
