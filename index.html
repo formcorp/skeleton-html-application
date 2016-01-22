@@ -59,12 +59,13 @@
 
                 fcLoader('//cdn.formcorp.com.au/{{version}}/formcorp.min.js', function () {
                     var developmentMode = {{devMode}};
-
+                    fc.setBranch("{{branch}}");
                     fc.setConfig({{options}});
                     if (developmentMode) {
                         fc.setAsDevelopmentMode();
                         fc.setApiUrl('{{apiUrl}}');
                         fc.setCdnUrl('//cdn.formcorp.com.au/{{version}}/');
+                    }
                     }
 
                     fc.init('{{public_key}}', 'formcorp-form');
