@@ -1,4 +1,3 @@
-/* Features */
 /* Colors */
 /* Sections */
 /* Fields */
@@ -13,10 +12,17 @@
 /* Tables */
 /* Content radio list */
 #nav .powered-by {
+  display: none;
   position: absolute;
   right: 50px;
   left: auto;
   top: 50%;
+  display: block !important;
+}
+#nav a.logo:first-child {
+  background: url("images/logo.png") no-repeat 0 50%;
+  height: 80px;
+  width: 400px;
 }
 #loading-bar-top .bar {
   background: #48ab6c;
@@ -223,7 +229,7 @@
 }
 #formcorp-form .fc-page .fc-section {
   border: 1px solid #96989b;
-  padding: 0;
+  padding: 25px 35px;
 }
 #formcorp-form .fc-page .fc-section {
   margin: 50px 0;
@@ -237,14 +243,14 @@
   margin: 15px 0 0 0;
 }
 #formcorp-form .fc-page .fc-section h4 {
-  font-size: 14pt;
+  font-size: 18pt;
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid #c8cbd4;
   font-weight: normal;
 }
 #formcorp-form .fc-page .fc-section .fc-field {
-  margin: 0 0 20px 0;
+  margin: 20px 0;
   /* Rich text area styling */
   /* Field label */
   /* Field help text */
@@ -645,7 +651,7 @@
   height: auto;
 }
 #formcorp-form .fc-page .fc-section .fc-field .fc-fieldgroup {
-  padding: 0 0 25px 0;
+  padding: 0;
   /* Success and error box */
 }
 #formcorp-form .fc-page .fc-section .fc-field .fc-fieldgroup .fc-success-box,
@@ -692,11 +698,11 @@
   border-radius: 15px;
 }
 #formcorp-form .fc-page .fc-section .fc-field .fc-repeatable.fc-repeatable-in-dom .fc-repeatable-rows {
-  margin: 0;
+  margin: 0 0 50px 0;
 }
 #formcorp-form .fc-page .fc-section .fc-field .fc-repeatable.fc-repeatable-in-dom .fc-link a {
   border: 1px solid #96989b;
-  padding: 0;
+  padding: 25px 35px;
   border-radius: 0;
   display: block;
   padding-top: 0;
@@ -948,157 +954,4 @@
 }
 .loader-container #loader-content #loader-wrapper .loader-section.section-right {
   right: 0;
-}
-#formcorp-form .fc-page .fc-section .fc-section-header .fc-section-label {
-  padding: 15px 25px;
-  background: #48ab6c;
-  color: #ffffff;
-  border-bottom: medium none;
-  margin-bottom: 25px;
-}
-#formcorp-form .fc-page .fc-section .fc-section-header .fc-section-label h4 {
-  border-bottom: medium none;
-  text-transform: none;
-  margin-bottom: 0;
-}
-#formcorp-form .fc-page .fc-section .fc-section-desc {
-  padding: 0 25px;
-}
-#formcorp-form .fc-page .fc-section .fc-field {
-  padding: 0 25px;
-}
-#formcorp-form .fc-page .fc-section .fc-field .fc-desc {
-  margin: -10px 0 10px 0;
-  padding: 0;
-  font-style: italic;
-}
-#formcorp-form .fc-page .fc-section .fc-field .fc-desc p {
-  margin: 0;
-  padding: 0;
-  font-style: italic;
-}
-#formcorp-form .fc-page .fc-section .fc-field.fc-field-radioList input.fc-fieldinput[type="radio"] + label em,
-#formcorp-form .fc-page .fc-section .fc-field.fc-field-checkboxList input.fc-fieldinput[type="radio"] + label em,
-#formcorp-form .fc-page .fc-section .fc-field.fc-field-radioList input.fc-fieldinput[type="checkbox"] + label em,
-#formcorp-form .fc-page .fc-section .fc-field.fc-field-checkboxList input.fc-fieldinput[type="checkbox"] + label em {
-  float: none;
-  overflow: hidden;
-  padding: 0 50px 0 13px;
-  display: block;
-}
-#formcorp-form .fc-page .fc-section .fc-field .fc-token {
-  font-weight: bold;
-}
-#formcorp-form .fc-page .fc-section .fc-field.fc-field-grouplet .fc-field {
-  padding: 0 25px 0 0;
-}
-#formcorp-form .fc-page .fc-section .fc-field.multi-line .fc-block {
-  display: inline-block;
-  width: 33%;
-}
-#formcorp-form .fc-page .fc-section .fc-field.bold .fc-fieldcontainer > label {
-  font-weight: bold;
-}
-#formcorp-form .fc-page .fc-section .fc-field .fc-fieldgroup {
-  padding-top: 0;
-}
-#formcorp-form .fc-page .fc-section .fc-field .fc-fieldcontainer > label {
-  padding: 0 0 25px 0;
-  padding-bottom: 10px;
-  margin-bottom: 0;
-}
-#formcorp-form .fc-page .fc-section .fc-field.fc-tag-richBox {
-  padding: 0 25px;
-  margin-bottom: 35px;
-}
-#formcorp-form .fc-page .fc-section .fc-field.fc-tag-richBox > .fc-fieldcontainer {
-  background: #fafafa;
-  padding-bottom: 10px;
-}
-#formcorp-form .fc-page .fc-section .fc-field.fc-tag-richBox > .fc-fieldcontainer > label {
-  background: #48ab6c;
-  padding: 6px 15px;
-  display: block;
-  color: #ffffff;
-  margin-bottom: 15px;
-}
-#formcorp-form .fc-page .fc-section .fc-field.fc-tag-richBox > .fc-fieldcontainer .fc-fieldgroup {
-  padding: 0 20px;
-}
-#formcorp-form .fc-page .fc-section .fc-field.fc-tag-richBox .fc-richtext h5 {
-  margin: 16px 0 2px 0;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-#formcorp-form .fc-page .fc-section .fc-field.fc-tag-richBox .fc-richtext h6 {
-  font-weight: bold;
-  margin: 10px 0 0 0;
-}
-#formcorp-form .fc-page .fc-section .fc-field.fc-tag-richBox .fc-richtext ol {
-  margin-top: 0;
-}
-#formcorp-form .fc-page .fc-section .fc-field.fc-tag-richBox .fc-richtext p {
-  margin-bottom: 8px;
-  padding-bottom: 0;
-}
-#formcorp-form .fc-page .fc-section .fc-field.fc-tag-header .fc-fieldcontainer label {
-  background: #48ab6c;
-  color: #ffffff;
-  padding: 4px 8px;
-  display: block;
-}
-#formcorp-form .fc-page .fc-section .fc-field.two-col {
-  width: 50%;
-  float: left;
-}
-#formcorp-form .fc-page .fc-section .fc-field.two-col.first {
-  clear: both;
-}
-#formcorp-form .fc-page .fc-section .fc-field.two-col.last + .fc-field {
-  clear: both;
-}
-#formcorp-form .fc-page .fc-section .fc-field.three-col {
-  width: 33.33333%;
-  float: left;
-}
-#formcorp-form .fc-page .fc-section .fc-field.three-col.first {
-  clear: both;
-}
-#formcorp-form .fc-page .fc-section .fc-field.three-col.last + .fc-field {
-  clear: both;
-}
-#formcorp-form .fc-page .fc-section .fc-field.three-col.two-thirds {
-  width: 66.66666667%;
-}
-#formcorp-form .fc-page .fc-section .fc-field .fc-repeatable .fc-end-repeatable-row {
-  clear: both;
-}
-#formcorp-form .fc-page .fc-section .fc-field .fc-repeatable .fc-link a {
-  padding-left: 15px !important;
-}
-#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-content-title {
-  background: #48ab6c;
-  color: #ffffff;
-  border-radius: 0;
-}
-#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-verification-packages .fc-col {
-  min-height: 300px;
-}
-#formcorp-form .fc-page .fc-section .fc-field.fc-field-greenIdVerification .fc-greenid-verification-packages .fc-col .fc-content-desc {
-  height: 110px;
-}
-#formcorp-form .fc-page .fc-section .fc-field.no-top-margin {
-  margin: -15px 0 5px 0;
-}
-#formcorp-form .fc-page .fc-section .fc-field.two-col.first {
-  margin-right: 0;
-}
-#formcorp-form .fc-page .fc-pagination .next-page {
-  float: left;
-  font-size: 16px;
-  padding-top: 8px;
-}
-#formcorp-form .fc-page .fc-pagination .next-page .fa-check-circle {
-  color: #48ab6c;
-  font-size: 22px;
 }
